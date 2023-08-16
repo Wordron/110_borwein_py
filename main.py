@@ -45,7 +45,7 @@ def trapeze(n):
 def add_two(n):
     sum_result = 0
 
-    for i in range(1, 10000):
+    for i in range(0, 10000):
         sum_result = sum_result + do_f_x(i * 0.5 + 0.25, n)
     return sum_result
 
